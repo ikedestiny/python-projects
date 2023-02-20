@@ -9,3 +9,5 @@ new_list = ['a']*6
 new_string = ','.join(new_list)
 
 print(new_string)
+
+#how to convert strings to list and vice versa
