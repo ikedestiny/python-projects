@@ -38,6 +38,14 @@ class calculator:
             return(calculator.comb(a, b)*calculator.factorial(b))
         else:
             return("MATHS ERROR")
+
+        
+class circle:
+    def __init__(self, radius):
+        self.radius = int(radius)
+
+    def area(self):
+        return (self.radius*self.radius*3.1416)
     
-
-
+    def circum(self):
+        return (self.radius*2*3.1416)
